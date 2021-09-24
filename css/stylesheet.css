@@ -207,8 +207,8 @@ video {
 
 /* stylings and decorations */
 a {
-  text-decoration: none;
   color: #111;
+  text-decoration: none;
 }
 
 body > header {
@@ -412,7 +412,8 @@ h3, h4 {
   }
 
   #related-videos {
-      width: 400px;
+    overflow-x: hidden;
+    width: 400px;
   }
 
   #related-videos > ul { 
